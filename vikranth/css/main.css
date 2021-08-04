@@ -6,9 +6,11 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    background-size: cover;
 }
 
-section
+
+section:nth-child(1)
 {
     position: relative;
     width: 100%;
@@ -18,39 +20,21 @@ section
     justify-content:center;
     align-items: center;
     overflow-x: hidden;
-}
-
-.bg
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #111;
-}
-
-.bg::before
-{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-    background: #111;
+    background: #082032;
+    /* background: #4169E9; */
 }
 
 header
 {
     position: absolute;
-    top:0;
+    top: -122px;
     left: 0;
     width: 100%;
     padding: 20px 100px;
     display: flex;
     justify-content:space-between;
     align-items: center;
+
 }
 
 header .logo
@@ -113,3 +97,13 @@ header .navigation li
     height: 300px;
 }
 
+.something
+{
+    position: relative;
+    bottom: 178px;
+    width:1000px;
+    height: 1000px;
+    background: cover;
+    align-items: center;
+}
+ 

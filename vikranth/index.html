@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <section>
-        <div class="bg"></div>
-        <header>
-            <a href = "#" class="logo">Logo</a>
+        <lottie-player class = "something" src="https://assets7.lottiefiles.com/packages/lf20_j2t391eq.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
+        <header class= "head">
+            <a href = "#" class="logo"></a>
             <ul class="navigation">
                 <li><a href = "#" class="btn"><span></span>Home</a></li>
                 <li><a href = "#" class="btn"><span></span>Menu</a></li>
@@ -34,5 +34,25 @@
             })
         })
     </script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="js/anime.min.js"></script>
+<script>
+    anime({
+        targets: '.something',
+        position: 'relative',
+        height: '90px',
+        width: '90px',
+        bottom: '300px',
+        right:'575px',
+        delay: 12000
+    })
+
+    anime({
+        targets: '.head',
+        top: '0px',
+        delay: 12000
+    })
+
+</script>
 </body>
 </html>
