@@ -21,7 +21,6 @@ section:nth-child(1)
     align-items: center;
     overflow-x: hidden;
     background: #082032;
-    /* background: #4169E9; */
 }
 
 header
@@ -101,9 +100,48 @@ header .navigation li
 {
     position: relative;
     bottom: 178px;
-    width:1000px;
+    width: 1000px;
     height: 1000px;
+    left: 250px;
     background: cover;
-    align-items: center;
 }
  
+header #demo-svg path
+{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+.textBx h2
+{
+    position: relative;
+    right: 1000px;
+    top: 1000px;
+    color: #fff;
+    font-size: 5em;
+    line-height: 120px;
+}
+
+.textBx svg
+{
+    position: relative;
+    right: 1000px;
+    top: 1000px;
+}
+
+.textBx h3
+{
+    position: relative;
+    right: 1000px;
+    top: -1000px;
+}
+
+.textBx .btn
+{
+    position: relative;
+    right: 1000px;
+    top: 1000px;
+}
+
+
+
